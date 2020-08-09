@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700'); 
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #ecf0f1;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#todoInput {
+	width: 100%;
+	height: 60px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #34495e;
+	outline: none;
+	font: 300 28px 'Montserrat', sans-serif;
+	padding: 20px;
+	color: #34495e;
+}
+
+.submitButton {
+  height: 48px;
+  margin-top: 40px;
+  cursor: pointer;
+  width: 139px;
+  border-radius: 20px;
+  color: #34495e;
+  font: 18px 'Montserrat', sans-serif;
+}
+
+.submitButton:active {
+    border: 0;
+    outline: 0;
+}
+.list {
+	width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.form {
+	width: 800px;
+	margin: 50px auto 20px;
+}
+
+.task {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	padding: 0 20px;
+	color: #34495e;
+	transition: all .3s ease;
+}
+.task:hover {
+	background: rgba(0, 0, 0, .02);
+	cursor: pointer;
+} 
+
+
+li .close {
+  float: right;
+  color: #c0392b;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+li .close:hover {
+  color: #e74c3c;
+
+}
+
+.task:hover .close{
+	opacity: 1;
+}

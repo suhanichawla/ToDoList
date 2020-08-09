@@ -33,6 +33,7 @@ node index.js
 2. Run the following commands:
 
 ```
+npm install
 npm start
 
 ```
